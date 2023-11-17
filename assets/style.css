@@ -1,0 +1,105 @@
+/* UNIVERSAL SELECTOR */
+*{
+    margin:0;
+    padding:0;
+}
+
+/* ELEMENT SELECTORS */
+body{
+    position:relative;
+    font-family: "Verdana, Geneva, Tahoma, sans-serif";
+    font-size: 20px;
+    background-color:whitesmoke;
+    color: black
+}
+
+h1,
+h2{
+    margin: 20px;
+}
+
+main {
+    padding:60px;
+}
+
+li {
+    display:inline;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+header,
+footer {
+    height:60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: rgb(1, 56, 1);
+}
+
+header {
+    position:fixed;
+    border-bottom: 10px solid pink;
+}
+
+footer {
+    position:absolute;
+    margin-top: 0;
+    bottom: 00;
+    border-bottom:10px solid pink;
+    color: white;
+}
+
+figure {
+    margin: bottom 40px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+section {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    border-top: 3px solid pink;
+    background-color: pink
+}
+
+label {
+    display:inline-block;
+    width: 100px;
+}
+
+input,
+textarea {
+    box-sizing:border-box;
+    width: 300px;
+    border: 1px solid black;
+}
+
+textarea {
+    vertical-align: top;
+    height: 60px;
+}
+
+button {
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: aqua
+    color black;
+}
+
+/* CLASS SELECTORS */
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
