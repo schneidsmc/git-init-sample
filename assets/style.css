@@ -64,6 +64,7 @@ img {
 }
 
 section {
+    width: 100%;
     margin-bottom: 0;
     padding: 20px 10px 40px 10px;
     border-top: 3px solid pink;
@@ -95,6 +96,15 @@ button {
     color black;
 }
 
+.container {
+    width: 600px;
+    height: 150px;
+    margin: 20px auto;
+    padding: 20px 10px 40px 10px;
+    border: 10px solid aquamarine;
+    border-radius: 20px
+  }
+
 /* CLASS SELECTORS */
 .text-center {
     text-align: center;
@@ -103,3 +113,4 @@ button {
 .text-right {
     text-align: right;
 }
+
