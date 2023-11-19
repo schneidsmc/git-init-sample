@@ -78,12 +78,14 @@ label {
 
 input,
 textarea {
+    display: inline-block;
     box-sizing:border-box;
     width: 300px;
     border: 1px solid black;
 }
 
 textarea {
+    display: inline-block;
     vertical-align: top;
     height: 60px;
 }
@@ -100,6 +102,7 @@ button {
     width: 600px;
     height: 150px;
     margin: 20px auto;
+    display: center;
     padding: 20px 10px 40px 10px;
     border: 10px solid aquamarine;
     border-radius: 20px
@@ -112,5 +115,6 @@ button {
 
 .text-right {
     text-align: right;
+
 }
 
